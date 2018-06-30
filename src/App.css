@@ -7,6 +7,16 @@ body {
   margin-bottom: 0;
 }
 
+.subHeaderText {
+  /* background: rgba(0, 0, 0, 0.2); */
+  color: darkblue;
+
+}
+
+.subHeaderText p {
+  margin-bottom: 5px;
+}
+
 .ImgWrapper {
   display: flex;
   flex-wrap: wrap;
@@ -29,10 +39,24 @@ body {
   background: darkblue;
 }
  .sticky-top h3 {
-   padding: 7px 25px 0 0;
+   padding: 10px 25px 0 0;
+   font-size: 18pt;
  }
 
  .msg {
    float: left;
    margin-left: 25px;
  }
+
+
+ @media screen and (max-width: 1280px) {
+  .ImgWrapper {
+    margin: 50px 175px 150px 175px;
+  }
+  
+  /* .click-img img {
+    width: 150px;
+    height: 150px;
+  } */
+  
+}

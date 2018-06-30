@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import '../App.css';
-import TestDiv from "./TestDiv";
+import Header from "./Header";
 import ScoreBar from "./ScoreBar";
 import ImgWrapper from "./ImgWrapper";
 import ClickImages from "./ClickImages";
@@ -70,7 +70,7 @@ class GameContainer extends Component {
   render() {
     return (
       <div>
-        <TestDiv />
+        <Header />
         <ScoreBar
           score={this.state.score}
           topScore={this.state.topScore}
