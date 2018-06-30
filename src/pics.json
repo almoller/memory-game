@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "grass",
+    "image": "images/1-grass.jpg",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "name": "flower1",
+    "image": "images/2-flower.jpg",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "name": "broads fork",
+    "image": "images/3-broads.jpg",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "name": "maybird gulch",
+    "image": "images/4-maybird.jpg",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "name": "leaf",
+    "image": "images/5-leaf.jpg",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "name": "twin peaks",
+    "image": "images/6-twin.jpg",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "name": "lone peak",
+    "image": "images/7-lone.jpg",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "name": "lake blanche",
+    "image": "images/8-blanch.jpg",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "name": "sundial peak",
+    "image": "images/9-sundial.jpg",
+    "clicked": false
+  },
+  {
+    "id": 10,
+    "name": "mt baldy",
+    "image": "images/10-baldy.jpg",
+    "clicked": false
+  },
+  {
+    "id": 11,
+    "name": "bells canyon",
+    "image": "images/11-bellsCanyon.jpg",
+    "clicked": false
+  },
+  {
+    "id": 12,
+    "name": "flower2",
+    "image": "images/12-flower.jpg",
+    "clicked": false
+  }
+]

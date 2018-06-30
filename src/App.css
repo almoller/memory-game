@@ -1,0 +1,38 @@
+body {
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/topography.png");
+}
+
+.jumbotron {
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/congruent_pentagon.png");
+  margin-bottom: 0;
+}
+
+.ImgWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 200px 150px 200px;
+}
+
+.click-img img {
+  background-size: cover;
+  width: 175px;
+  height: 175px;
+  border: 2px solid lightseagreen;
+  margin: 10px;
+}
+
+.sticky-top {
+  height: 50px;
+  color: #fff;
+  text-align: right;
+  background: darkblue;
+}
+ .sticky-top h3 {
+   padding: 7px 25px 0 0;
+ }
+
+ .msg {
+   float: left;
+   margin-left: 25px;
+ }
