@@ -12,7 +12,7 @@ class GameContainer extends Component {
   state = {
     score: 0,
     topScore: 0,
-    message: "Welcome! Let the clicking begin!",
+    message: "Click an image to begin!",
     pics
   };
 
@@ -41,7 +41,7 @@ class GameContainer extends Component {
       });
       return this.setState({
         pics: this.shuffle(pics),
-        message: "Pay Attention! You already clicked that image!",
+        message: "Whoops! You clicked an image twice!",
         score: 0
       })
     } 
@@ -58,7 +58,7 @@ class GameContainer extends Component {
 
       return this.setState({
         pics: this.shuffle(pics),
-        message: "You have chosen wisely, keep it up!",
+        message: "Well done, keep it up!",
         score: updatedScore,
         topScore: newTopScore
       })
@@ -71,6 +71,7 @@ class GameContainer extends Component {
     return (
       <div>
         <Header />
+        <div className="container">
         <ScoreBar
           score={this.state.score}
           topScore={this.state.topScore}
@@ -88,6 +89,7 @@ class GameContainer extends Component {
             />
           ))}
         </ImgWrapper>
+        </div>
       </div>
     );
   }
